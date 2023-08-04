@@ -13,11 +13,11 @@ namespace ExpanceTracker.Models
 
 
         [Column(TypeName = "nvarchar(50)")]
-        public string Icon { get; set; }
+        public string Icon { get; set; } = "";
 
 
         [Column(TypeName = "nvarchar(50)")]
-        public string Type { get; set; }
+        public string Type { get; set; } = "Expence";
 
     }
 }
