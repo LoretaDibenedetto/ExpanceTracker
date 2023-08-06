@@ -12,7 +12,9 @@ html {
   position: relative;
   min-height: 100%;
 }
-
+*:not(.fa-solid):not(.fa):not(.e-icons){
+    font-family:"Inter"
+}
 body {
   margin-bottom: 60px;
   background-color:#12161d;
