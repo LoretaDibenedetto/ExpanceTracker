@@ -22,6 +22,11 @@ body {
 .e-bigger {
     font-size: x-large;
 }
+/*grid*/
+.e-grid{
+    border:0;
+    border-radius:5px;
+}
 
 /*Radio Button Group*/
 .e-btn-group.custom-rbt-group {
@@ -51,3 +56,5 @@ body {
     border-radius:1rem;
     background-color:#1a222b;
 }
+
+
