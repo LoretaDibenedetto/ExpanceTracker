@@ -24,10 +24,22 @@ body {
 .e-bigger {
     font-size: x-large;
 }
+
+
+/*button*/
+.btn:focus, .btn:active{
+    outline:none !important;
+    box-shadow:none;
+}
+.no-a-decoration, .no-a-decoration:hover{
+    text-decoration:none;
+    color:inherit;
+}
+
 /*grid*/
 .e-grid{
     border:0;
-    border-radius:5px;
+    border-radius:20px;
 }
 
 /*Radio Button Group*/
